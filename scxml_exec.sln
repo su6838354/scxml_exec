@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scxml_layout", "scxml_layout\scxml_layout.vcproj", "{FC96EF29-ACDD-4EDE-970E-7962B542FA14}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064} = {63F6ECCA-FC84-4382-8F08-66FC55E91064}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scxml_layout_test", "scxml_layout_test\scxml_layout_test.vcproj", "{CC528AB6-E363-4BDD-BB92-F98BF6180174}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC96EF29-ACDD-4EDE-970E-7962B542FA14} = {FC96EF29-ACDD-4EDE-970E-7962B542FA14}
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16} = {977E8061-70EB-48C9-920A-CE36ADBDFD16}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scxml_model", "scxml_model\scxml_model.vcproj", "{63F6ECCA-FC84-4382-8F08-66FC55E91064}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scxml_parser", "scxml_parser\scxml_parser.vcproj", "{977E8061-70EB-48C9-920A-CE36ADBDFD16}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1A80430-789A-4D61-B650-98BB36781D28} = {D1A80430-789A-4D61-B650-98BB36781D28}
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064} = {63F6ECCA-FC84-4382-8F08-66FC55E91064}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scxml_parser_test", "scxml_parser_test\scxml_parser_test.vcproj", "{5197B13C-4956-4073-841F-B356F5EA6988}"
+	ProjectSection(ProjectDependencies) = postProject
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16} = {977E8061-70EB-48C9-920A-CE36ADBDFD16}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxpath", "tinyxpath\tinyxpath.vcproj", "{D1A80430-789A-4D61-B650-98BB36781D28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB} = {3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxpath_lib", "tinyxpath\tinyxpath_lib\tinyxpath_lib.vcproj", "{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scxml_layout_test_MFC", "scxml_layout_test_MFC\scxml_layout_test_MFC.vcproj", "{4EEB5811-FB4F-4FFF-B2E7-5BCE47847CC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC96EF29-ACDD-4EDE-970E-7962B542FA14} = {FC96EF29-ACDD-4EDE-970E-7962B542FA14}
+		{D1A80430-789A-4D61-B650-98BB36781D28} = {D1A80430-789A-4D61-B650-98BB36781D28}
+		{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB} = {3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064} = {63F6ECCA-FC84-4382-8F08-66FC55E91064}
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16} = {977E8061-70EB-48C9-920A-CE36ADBDFD16}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC96EF29-ACDD-4EDE-970E-7962B542FA14}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC96EF29-ACDD-4EDE-970E-7962B542FA14}.Debug|Win32.Build.0 = Debug|Win32
+		{FC96EF29-ACDD-4EDE-970E-7962B542FA14}.Release|Win32.ActiveCfg = Release|Win32
+		{FC96EF29-ACDD-4EDE-970E-7962B542FA14}.Release|Win32.Build.0 = Release|Win32
+		{CC528AB6-E363-4BDD-BB92-F98BF6180174}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC528AB6-E363-4BDD-BB92-F98BF6180174}.Debug|Win32.Build.0 = Debug|Win32
+		{CC528AB6-E363-4BDD-BB92-F98BF6180174}.Release|Win32.ActiveCfg = Release|Win32
+		{CC528AB6-E363-4BDD-BB92-F98BF6180174}.Release|Win32.Build.0 = Release|Win32
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064}.Debug|Win32.Build.0 = Debug|Win32
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064}.Release|Win32.ActiveCfg = Release|Win32
+		{63F6ECCA-FC84-4382-8F08-66FC55E91064}.Release|Win32.Build.0 = Release|Win32
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16}.Debug|Win32.ActiveCfg = Debug|Win32
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16}.Debug|Win32.Build.0 = Debug|Win32
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16}.Release|Win32.ActiveCfg = Release|Win32
+		{977E8061-70EB-48C9-920A-CE36ADBDFD16}.Release|Win32.Build.0 = Release|Win32
+		{5197B13C-4956-4073-841F-B356F5EA6988}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5197B13C-4956-4073-841F-B356F5EA6988}.Debug|Win32.Build.0 = Debug|Win32
+		{5197B13C-4956-4073-841F-B356F5EA6988}.Release|Win32.ActiveCfg = Release|Win32
+		{5197B13C-4956-4073-841F-B356F5EA6988}.Release|Win32.Build.0 = Release|Win32
+		{D1A80430-789A-4D61-B650-98BB36781D28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1A80430-789A-4D61-B650-98BB36781D28}.Debug|Win32.Build.0 = Debug|Win32
+		{D1A80430-789A-4D61-B650-98BB36781D28}.Release|Win32.ActiveCfg = Release|Win32
+		{D1A80430-789A-4D61-B650-98BB36781D28}.Release|Win32.Build.0 = Release|Win32
+		{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}.Debug|Win32.Build.0 = Debug|Win32
+		{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}.Release|Win32.ActiveCfg = Release|Win32
+		{3E86FCD1-9FCB-4C8F-BFA9-298B18F277FB}.Release|Win32.Build.0 = Release|Win32
+		{4EEB5811-FB4F-4FFF-B2E7-5BCE47847CC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EEB5811-FB4F-4FFF-B2E7-5BCE47847CC0}.Debug|Win32.Build.0 = Debug|Win32
+		{4EEB5811-FB4F-4FFF-B2E7-5BCE47847CC0}.Release|Win32.ActiveCfg = Release|Win32
+		{4EEB5811-FB4F-4FFF-B2E7-5BCE47847CC0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
